@@ -3,9 +3,17 @@ const DetailSection = () => {
 		<div className='detail-section'>
 			<span className="detail-name">Trina Sikdar</span>
 			<span className="detail-role">Frontend Developer</span>
-			<a href="mailto:trinasikdar2000@gmail.com" className="detail-mail">trinasikdar2000@gmail.com</a>
-			<span className="detail-phn">+91-7864822328</span>
-			<span className="detail-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates non quae maxime? Delectus nihil fuga explicabo similique eum temporibus a!</span>
+			<span className="detail-contact">
+				<a href="mailto:trinasikdar2000@gmail.com" className="detail-contact-mail">
+					<button type="button">Email</button>
+				</a>
+				<a href="https://" target="_blank" className="detail-contact-linkedin">
+					<button type="button">LinkedIn</button>
+				</a>
+			</span>
+			<span className="detail-about">
+				Frontend Developer, with 3yrs of industry experince in developing attracting and scalable user interface. Proficient in Angular, React and Javascript.
+			</span>
 		</div>
 	)
 }
